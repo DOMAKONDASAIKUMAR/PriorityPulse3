@@ -1,0 +1,22 @@
+.form{
+    margin-left: auto;
+    margin-right: auto;
+   margin-bottom: 35px;
+} 
+.gog{
+    margin-top: 35px;
+}
+#InputPassword1,#InputEmail1{
+    border:1px solid #99ff99;
+}
+.sn{
+    position: absolute;
+   right:3%;
+    top:55%;
+    cursor: pointer;
+}
+.km{
+position: absolute;
+right:3%;
+top:3%;
+}
