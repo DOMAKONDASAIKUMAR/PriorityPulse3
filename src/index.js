@@ -1,27 +1,21 @@
-import React, { Children } from "react"
-import ReactDOM from "react-dom"
-import Signin from './Signin'
-import Foot from './Foot'
-import Signout from "./Signout"
+import React from "react";
+import ReactDOM from "react-dom";
 import "./Fontawsm/Font"
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import { BrowserRouter } from "react-router-dom";
+import "bootstrap/dist/css/bootstrap.css";
+import "./index.css";
+import App from "./App";
 
-function App(){
-    return  ( 
-      <div style={{
-          minHeight:"100vh",
-          display: "flex",
-          flexDirection: "column",
-        backgroundColor:"#fdfdfd"
-      }}> 
-     
-        {/* <Signin></Signin> */}
-        <Signin></Signin>
-        {/* <Signout></Signout> */}
-          <Foot></Foot>
-         
-          </div>
-        );
-}
 
-ReactDOM.render(<App/>,document.getElementById("root"));
+ReactDOM.render(
+        
+  <BrowserRouter>
+    <App />
+  </BrowserRouter>,
+  document.getElementById("root")
+);
+
+// If you want your app to work offline and load faster, you can change
+// unregister() to register() below. Note this comes with some pitfalls.
+
+

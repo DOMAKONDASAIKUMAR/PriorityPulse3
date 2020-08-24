@@ -8,9 +8,9 @@ const hd={
 function Header() {
     return (
         <div style={{textAlign:"center"}}>
-            <div style={{
-                height: "7.2vh", backgroundImage: "url('https://files.123freevectors.com/wp-content/original/128896-red-and-blue-abstract-curve-background.jpg')",backgroundSize:"cover"}}><span style={hd} className="px-5 py-3">Priority Pulse</span></div>
-            
+            <div className="bgimg" style={{
+                height: "7.2vh", backgroundSize:"cover"}}><span style={hd} className="px-5 py-3">Priority Pulse</span></div>
+           
         </div>
     )
 }

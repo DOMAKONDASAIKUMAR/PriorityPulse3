@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Container from 'react-bootstrap/Container'
-import "./Signin.css";
-import Head from './Header';
+import "../index.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import { faEye,faEyeSlash } from '@fortawesome/free-solid-svg-icons';
 function Signin() {
@@ -64,7 +63,7 @@ function Signin() {
 
 return (
 <div >
-<Head></Head>
+
 <Container className="form " style={sai}>
 <div >
   <h2 >Sign Up</h2>
@@ -86,7 +85,7 @@ return (
      <input type="text"  class="form-control pl-4" id="InputPassword1" name="code" required placeholder="Unique Code " />
      </div>  
       <button type="submit " className=" form-control mt-4 mb-2  btn btn-info" style={{fontWeight:"500",fontSize:"20px"}}>Submit</button>
-      <span className="">Already have an account? <a href="" style={{color:"#00e6e6"}}>SignUp </a> </span>
+      <span className="">Already have an account? <a href="/Signin" style={{color:"#00e6e6"}}>Signin </a> </span>
  {/* <div className="gog">
       <GoogleLogin
       clientId="339274152306-d05fu5bdmjlq57s9nrid52p75lcm37g5.apps.googleusercontent.com"
