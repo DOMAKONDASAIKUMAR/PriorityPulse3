@@ -16,9 +16,9 @@ class App extends Component {
       }}>
                 <Head></Head>
           <Switch>
-           <Route path="/Signin" component={Signin} />
-            <Route path="/Signup" component={SignUp} />
-            <Redirect to="/Signin" />
+             <Route path="/Signup" component={SignUp} />
+            <Route path="/Signin" component={Signin} />
+            <Redirect to="/Signup" />
                 </Switch>
                 <Foot></Foot>
             </main>
